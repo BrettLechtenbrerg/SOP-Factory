@@ -79,12 +79,12 @@ export function HelpButton() {
           </DialogHeader>
 
           <div className="overflow-y-auto flex-1 -mx-6 px-6 space-y-4 py-4">
-            <div className="rounded-lg bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 p-5 space-y-3">
-              <h3 className="font-semibold text-blue-900 flex items-center gap-2">
+            <div className="rounded-lg bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/40 dark:to-indigo-950/40 border border-blue-200 dark:border-blue-800 p-5 space-y-3">
+              <h3 className="font-semibold text-blue-900 dark:text-blue-100 flex items-center gap-2">
                 <Sparkles className="h-4 w-4" />
                 Why SOPs Matter
               </h3>
-              <p className="text-sm text-blue-800">
+              <p className="text-sm text-blue-800 dark:text-blue-200">
                 Standard Operating Procedures are the backbone of a scalable
                 business. When every process is documented, anyone on your team
                 can execute it consistently — freeing you to focus on growth.
